@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: Arial;
+        color: white;
+      }
+
+      .container {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        position: fixed;
+        background-color: rgba(16, 5, 63, 0.473);
+      }
+
+      .kopf {
+        height: 10%;
+        width: 100%;
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 2px;
+        background-color: rgba(6, 56, 122, 0.418);
+      }
+
+      .split {
+        height: 85%;
+        width: 50%;
+        position: absolute;
+        top: 1;
+        overflow-x: hidden;
+      }
+
+      .left {
+        left: 0;
+      }
+
+      .right {
+        right: 0;
+      }
+
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .centered img {
+        width: 150px;
+        border-radius: 50%;
+      }
+
+      .one,
+      .two {
+        position: absolute;
+        width: 80%;
+        height: 50%;
+        text-align: right;
+      }
+
+      .one {
+      }
+      .two {
+        top: 35vh;
+      }
+
+      .Cat {
+        height: 45%;
+        width: auto;
+        float: left;
+      }
+      .Halloween {
+        height: 45%;
+        width: auto;
+        float: left;
+      }
+      .leer {
+        height: 10%;
+        width: 100%;
+      }
+
+      .Moon {
+        height: 30%;
+        width: auto;
+      }
+    </style>
+
+    <title>Meine Projekte</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="kopf">
+        <h1>Meine Projekte</h1>
+      </div>
+      <div class="leer"></div>
+      <div class="split left">
+        <div class="one">
+          <img class="Cat" src="tier.png" alt="Katze auf Besen" />
+          <h2>Katze auf besen</h2>
+          <p>
+            Von den Grabsteinen und Kreuzen gibt es jeweils ein
+            Ursprungsobjekt.<br />Weitere Objekte können durch die
+            entsprechenden Funktionen erzeugt werden, indem der Funktion in
+            Pixeln gesagt wird wie weit entfernt vom ursrünglichen Objekt sie
+            stehen sollen.<br />
+          </p>
+          <p class="link">
+            <br />
+            Hier könnt ihr das Bild sehen
+            <a href="tier.html">klick mich</a>.
+          </p>
+        </div>
+        <div class="two">
+          <img class="Halloween" src="animation.png" alt="Halloween" />
+          <h2>Zombie</h2>
+          <p>
+            Die Sterne werden ähnlich wie bei der Katze über eine Funktion
+            erzeugt und platziert.<br />
+            Das leuchten der Sterne wird über einen helleren gelben Kreis
+            erzeugt und dieser Kreis wird bis zu einem bestimmten Punkt
+            vergrößert und ab dann wieder verkleinert. Blut und Hirn werden
+            Schrittweise mit unterscheidlichen Geschwindigkeiten neu gezeichnet,
+            bis sie den Boden erreichen. Dort werden sie dann auf die
+            Anfangsposition zurückgesetzt und es beginnt von vorne.
+          </p>
+          <p class="link">
+            <br />
+            Hier könnt ihr das Bild sehen
+            <a href="animation.png">klick mich</a>.
+          </p>
+        </div>
+      </div>
+
+      <div class="split right">
+        <img class="Moon" src="game.png" alt="Luna" />
+        <h2>Lunar Lander</h2>
+        <p>
+          Die Biene f&auml;llt ungebremst gerade herunter. Erreicht sie den
+          Boden ausserhalb des Bienenstocks<br />
+          ist das Spiel verloren. Durch dr&uuml;cken von 'A' oder 'D' l&auml;sst
+          sich die Biene steuern.<br />
+          Durch dr&uuml;cken von 'W' gewinnt die Biene an H&ouml;he/f&auml;llt
+          langsamer.<br />
+          Das Spiel ist gewonnen wenn die Biene den Stockeingang erreicht.<br />
+          Sobald das Spiel zuende ist, l&auml;sst es sich durch einen erneuten
+          klick auf 'Start' von Vorne beginnen.
+        </p>
+        <p class="link">
+          <br />
+          Hier könnt ihr das Spiel spielen
+          <a href="gamelunarlander.html">klick mich</a>.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

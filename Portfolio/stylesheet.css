@@ -1,0 +1,49 @@
+h1 {
+  color: #ffffff;
+  font-weight: bold; /* funktioniert nicht fuer Ueberschriften */
+  text-align: center;
+}
+
+body {
+  background-image: url("Hintergrund-space.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.Vorstellung {
+  text-align: center;
+  color: #ffffff;
+}
+
+p.link {
+  color: #ffffff;
+}
+
+.picture {
+  height: 50%;
+  width: auto; /* you can use % */
+}
+
+.Funktion {
+  color: #ffffff;
+  font-size: 15;
+  font-family: monospace;
+}
+
+a {
+  color: hotpink;
+}
+.cat {
+  height: 50%;
+  width: auto;
+}
+.Tier {
+  color: #ffffff;
+}
+.Zombie {
+  color: white;
+}
+.animation {
+  height: 50%;
+  width: auto;
+}
